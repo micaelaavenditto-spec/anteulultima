@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venzo Amphion</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Landing page para Venzo Amphion con grilla editorial e interaccion tipografica.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Venzo Amphion inicio">
+        <img class="logo logo-light" src="Logo blanco Venzo.png" alt="Venzo">
+        <img class="logo logo-dark" src="Logo negro Venzo.png" alt="">
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="main-nav" aria-label="Principal">
+        <a href="#sistema">Tecnología</a>
+        <a href="#detalles">Detalles</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#team-venzo">Team Venzo</a>
+        <a href="#conseguirla">Conseguila</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero grid-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">AMPHION</h1>
+          <p class="hero-text">No naciste para quedarte en el camino.</p>
+        </div>
+        <div class="hero-lower">
+          <p class="hero-subtitle">Estamos para acompañarte cuando el terreno se vuelve desafiante y en cada momento de tu vida.</p>
+          <div class="actions">
+            <a class="button primary" href="#capacidades">EXPLORAR</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="foto h1.png" alt="Ciclista Venzo en ciudad">
+        </figure>
+      </section>
+
+      <section class="amphion-story" id="experiencia" aria-labelledby="amphion-story-title">
+        <div class="amphion-story__sticky">
+          <div class="amphion-story__card">
+            <div class="amphion-story__titles">
+              <h2 class="amphion-story__heading" id="amphion-story-title">
+                <span class="amphion-story__sr-only">La experiencia Amphion</span>
+              </h2>
+            </div>
+            <div class="amphion-story__media" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="amphion-capabilities" id="capacidades" aria-labelledby="amphion-capabilities-title">
+        <h2 class="amphion-capabilities__title" id="amphion-capabilities-title" data-capabilities-read>
+          <span class="amphion-capabilities__word">Llevá</span>
+          <span class="amphion-capabilities__word">al</span>
+          <span class="amphion-capabilities__word">límite</span>
+          <span class="amphion-capabilities__word">tus</span>
+          <span class="amphion-capabilities__word">capacidades</span>
+        </h2>
+        <div class="amphion-capabilities__gallery">
+          <button class="amphion-capabilities__arrow" type="button" aria-label="Ver siguiente detalle técnico">&#8594;</button>
+          <figure class="amphion-capabilities__media is-active">
+            <img src="cuadro de aluminio.png" alt="Detalle del cuadro de aluminio de Venzo Amphion">
+            <figcaption class="amphion-capabilities__caption">
+              <h3>Cuadro de aluminio</h3>
+              <p>Equilibrio perfecto entre ligereza y resistencia.</p>
+            </figcaption>
+          </figure>
+          <figure class="amphion-capabilities__media">
+            <img src="transmicion.png" alt="Detalle de la transmisión de Venzo Amphion">
+            <figcaption class="amphion-capabilities__caption">
+              <h3>Transmisión</h3>
+              <p>Cambios precisos y una respuesta fluida en cada recorrido.</p>
+            </figcaption>
+          </figure>
+          <figure class="amphion-capabilities__media">
+            <img src="suspencion delantera.png" alt="Detalle de la suspensión delantera de Venzo Amphion">
+            <figcaption class="amphion-capabilities__caption">
+              <h3>Suspensión delantera</h3>
+              <p>Más comodidad y control en todo terreno.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="amphion-scenarios" aria-label="Escenarios Venzo Amphion">
+        <article class="amphion-scenarios__card">
+          <span class="amphion-scenarios__number">01</span>
+          <div class="amphion-scenarios__content">
+            <h2>Ciudad</h2>
+            <p>Movete con tranquilidad entre calles, parques y recorridos cotidianos.</p>
+          </div>
+        </article>
+        <article class="amphion-scenarios__card">
+          <span class="amphion-scenarios__number">02</span>
+          <div class="amphion-scenarios__content">
+            <h2>Montaña</h2>
+            <p>Enfrentá subidas, descensos y terrenos irregulares con seguridad.</p>
+          </div>
+        </article>
+        <article class="amphion-scenarios__card">
+          <span class="amphion-scenarios__number">03</span>
+          <div class="amphion-scenarios__content">
+            <h2>Competencia</h2>
+            <p>Rendimiento pensado para ir siempre un poco más lejos.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="kinetic-section" id="sistema">
+        <div class="kinetic-inner">
+          <div class="kinetic-text">
+            <p class="eyebrow">Tecnología</p>
+            <h2 class="kinetic-title" data-kinetic>
+              <span class="kinetic-line">Una bicicleta</span>
+              <span class="kinetic-line">que se adapta a</span>
+              <span class="kinetic-line">tus necesidades.</span>
+            </h2>
+          </div>
+          <div class="bike-diagram">
+
+            <!-- Imagen principal de la bicicleta -->
+            <img class="bike-image" src="venzo_png.png" alt="Venzo Amphion rosa">
+
+            <!-- Puntos técnicos (siempre encima) -->
+            <div class="bike-point" style="top: 40.8%; left: 89.9%;" data-label="A">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Llantas Rodado 29</strong>
+                <ul>
+                  <li>Mantienen mejor la velocidad.</li>
+                  <li>Pasan obstáculos con más facilidad.</li>
+                  <li>Dan más estabilidad en caminos irregulares.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 22.1%; left: 55.7%;" data-label="B">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Suspensión de alta gama</strong>
+                <ul>
+                  <li>Ajustable según el peso del ciclista.</li>
+                  <li>Dirección más precisa.</li>
+                  <li>Absorbe los impactos del camino.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 61.1%; left: 51.7%;" data-label="C">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Frenos hidráulicos Shimano</strong>
+                <ul>
+                  <li>Frenadas más cortas.</li>
+                  <li>Más control en bajadas.</li>
+                  <li>Más seguridad en situaciones imprevistas.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 41.5%; left: 40.7%;" data-label="D">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Cuadro de aluminio</strong>
+                <ul>
+                  <li>Reduce el peso total de la bicicleta.</li>
+                  <li>Mayor durabilidad.</li>
+                  <li>Responde más rápido.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="amphion-colors" aria-labelledby="amphion-colors-title">
+        <div class="amphion-colors__inner">
+          <div class="amphion-colors__stage" aria-live="polite">
+            <div class="amphion-colors__slides"></div>
+            <button class="amphion-colors__arrow amphion-colors__arrow--prev" type="button" aria-label="Color anterior">&#8592;</button>
+            <button class="amphion-colors__arrow amphion-colors__arrow--next" type="button" aria-label="Color siguiente">&#8594;</button>
+          </div>
+          <div class="amphion-colors__controls">
+            <h2 class="amphion-colors__title" id="amphion-colors-title">Colores disponibles</h2>
+            <div class="amphion-colors__swatches" role="group" aria-label="Seleccionar color"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-band" id="detalles">
+        <div>
+          <p class="eyebrow">Conocé los detalles</p>
+          <h2>Hacemos posible la aventura.</h2>
+        </div>
+        <ul class="tech-list">
+          <li><span>Cuadro</span><strong>Aluminio 6061</strong></li>
+          <li><span>Peso</span><strong>13,5 kg</strong></li>
+          <li><span>Transmisión</span><strong>Shimano 24 velocidades</strong></li>
+          <li><span>Componentes</span><strong>Shimano</strong></li>
+        </ul>
+      </section>
+
+      <section class="team-venzo" id="team-venzo" aria-labelledby="team-venzo-title">
+        <div class="team-venzo__card">
+          <div class="team-venzo__heading">
+            <p class="team-venzo__eyebrow">TEAM VENZO</p>
+            <h2 id="team-venzo-title">Sumate al equipo.</h2>
+          </div>
+          <div class="team-venzo__content">
+            <div class="team-venzo__riders" aria-label="Integrantes Team Venzo">
+              <button class="team-venzo__rider is-active" type="button" data-name="SEBASTIAN, 34" data-quote="Competencia en Mendoza, terminé en puesto #4 gracias a la Amphion y el apoyo del team" aria-pressed="true">
+                <img src="team_1.png" alt="Sebastian, integrante de Team Venzo">
+              </button>
+              <button class="team-venzo__rider" type="button" data-name="MARCOS, 27" data-quote="El terreno estuvo difícil pero los otros competidores se quedaron atrás en las pendientes, la transmisión fue ideal" aria-pressed="false">
+                <img src="team_2.png" alt="Marcos, integrante de Team Venzo">
+              </button>
+              <button class="team-venzo__rider" type="button" data-name="JULIAN, 22" data-quote="Nada como refrescarse durante la competencia" aria-pressed="false">
+                <img src="team_3.png" alt="Julian, integrante de Team Venzo">
+              </button>
+              <button class="team-venzo__rider" type="button" data-name="FRANCO, 35" data-quote="Miren los saltos que aprendí a dar. Qué increíble superarse a uno mismo" aria-pressed="false">
+                <img src="team_4.png" alt="Franco, integrante de Team Venzo">
+              </button>
+            </div>
+            <div class="team-venzo__story" aria-live="polite">
+              <strong class="team-venzo__name">SEBASTIAN, 34</strong>
+              <p class="team-venzo__quote">“Competencia en Mendoza, terminé en puesto #4 gracias a la Amphion y el apoyo del team”</p>
+              <a class="team-venzo__cta" href="#unirme">UNIRME AL TEAM</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-label="Próximo desafío">
+        <img class="cta-banner__image" src="cta.png" alt="Venzo Amphion preparada para el próximo desafío">
+        <div class="cta-banner__overlay" aria-hidden="true"></div>
+        <h2 class="cta-banner__title">¿Estás listo para el próximo desafío?</h2>
+      </section>
+
+      <section class="test-ride" id="conseguirla">
+        <div>
+          <p class="eyebrow">Test ride</p>
+          <h2>Probala donde sea que estés.</h2>
+        </div>
+        <a class="distributor-cta" href="https://venzoargentina.com.ar/distribuidores/">CONOCE TU DISTRIBUIDOR MÁS CERCANO</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
